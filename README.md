@@ -25,7 +25,7 @@ CREATE CUSTOM INDEX ON product_vectors(product_vector) USING 'StorageAttachedInd
 ```
 
 ## Functionality
-Reads from the data/[product_ids.csv](data/product_ids.csv) file, generates embeddings using the HuggingFace API and `all-MiniLM-L6-v2` sentence transformer. Loads embeddings into `product_vector` table in Astra DB.
+Reads from the data/[product_ids.csv](data/product_ids.csv) file, generates embeddings using LangChain and the HuggingFace `all-MiniLM-L6-v2` sentence transformer. Loads embeddings into `product_vector` table in Astra DB.
 
 ## Output
 ```
