@@ -1,5 +1,5 @@
 # ecomProductEmbeddingLoader
-Reads a file of product IDs, computes vector embeddings from HuggingFace (based on the name) to be stored in Astra DB.
+Reads a file of product IDs, computes vector embeddings using LangChain (based on the name) to be stored in Astra DB.
 
 ## Requirements
  - Account with [Astra DB](https://astra.datastax.com/).
